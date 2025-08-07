@@ -149,6 +149,7 @@ const App: React.FC = () => {
             playing={appState.videoState.playing}
             volume={appState.videoState.muted ? 0 : appState.videoState.volume}
             playbackRate={appState.videoState.playbackRate}
+            autoPlay={true}
             width="100%"
             height="100%"
           />
